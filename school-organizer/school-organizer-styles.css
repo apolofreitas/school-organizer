@@ -1,0 +1,19 @@
+.school-timetable-main {
+  width: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.school-timetable-col {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+}
+
+.school-timetable-timeslot {
+  font-size: 2ch;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+}

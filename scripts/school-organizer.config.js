@@ -79,7 +79,7 @@
         },
         {
           name: 'Ed. Física',
-          code: 'eme-zkax-dnf',
+          code: 'ynh-acvm-qdm',
           type: 'period'
         },
         {
@@ -161,7 +161,7 @@
         },
         {
           name: 'Ed. Física',
-          code: 'eme-zkax-dnf',
+          code: 'ynh-acvm-qdm',
           type: 'period'
         },
         {

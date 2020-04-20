@@ -69,7 +69,7 @@
         },
         {
           name: 'Física',
-          code: 'osp-mchu-scw',
+          code: 'osp-mhcu-scw',
           type: 'period'
         },
         {

@@ -100,7 +100,7 @@
         },
         {
           name: 'Biologia',
-          code: 'jsk-ockc-bhx',
+          code: 'jsx-ockc-bhx',
           type: 'period'
         },
         {

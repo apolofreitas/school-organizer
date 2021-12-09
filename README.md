@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to School Organizer 👋</h1>
 
 <a href="https://apolofreitas.github.io/school-organizer/">
-  <img alt="Happy" src=".github/images/banner.png" />
+  <img alt="Happy" src=".github/images/banner.png" width="100%" />
 </a>
 
 <p align="center">A online school schedule management built with vanilla javascript!</p>

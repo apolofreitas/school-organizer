@@ -5,7 +5,7 @@ const school = {
       classes: {},
       timetable: [],
     },
-    style: {}
+    style: {},
   },
 
   config(config) {
@@ -73,4 +73,3 @@ const school = {
     }
   },
 }
-

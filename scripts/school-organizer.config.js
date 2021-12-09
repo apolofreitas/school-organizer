@@ -1,20 +1,13 @@
 {
-  const title = {
-    backgroundColor: 'rgb(40, 42, 54)',
-    color: 'rgb(248,248,242)',
-  }
-
-  const OpenGoogleMeets = (code) => window.open(`https://meet.google.com/${code}`)
-
   function onLoadTimeSlot(object) {
     const { element, timeSlot } = object
 
     switch (timeSlot.type) {
       case 'period':
         element.classList.add('school-timetable-period')
-        if (timeSlot.code) {
+        if (timeSlot.link) {
           element.onclick = () => {
-            window.open(`https://meet.google.com/${timeSlot.code}`)
+            window.open(timeSlot.link)
           }
           element.style.cursor = 'pointer'
         }
@@ -50,209 +43,173 @@
       [
         {
           name: 'Segunda',
-          type: 'day'
+          type: 'day',
         },
         {
           name: 'Inglês',
-          code: '',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'PPBD',
-          code: 'ddq-mrio-gym',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Matemática',
-          code: 'dus-xyvc-gkf',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Física',
-          code: 'osp-mhcu-scw',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Filosofia',
-          code: '',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Ed. Física',
-          code: 'ynh-acvm-qdm',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Português',
-          code: 'crb-brvp-uoj',
-          type: 'period'
+          type: 'period',
         },
       ],
       [
         {
           name: 'Terça',
-          type: 'day'
+          type: 'day',
         },
         {
           name: 'IMC',
-          code: 'zqs-gywn-hst',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Biologia',
-          code: 'jsx-ockc-bhx',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'ONST',
-          code: 'agf-fqcs-ren',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'História',
-          code: 'tsq-mkni-nud',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Química',
-          code: 'wzd-mwxc-njx',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Geografia',
-          code: 'kwg-bhea-okr',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Português',
-          code: 'crb-brvp-uoj',
-          type: 'period'
+          type: 'period',
         },
       ],
       [
         {
           name: 'Quarta',
-          type: 'day'
+          type: 'day',
         },
         {
           name: 'Inglês',
-          code: '',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Sociologia',
-          code: 'ovi-rftz-tnt',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Matemática',
-          code: 'dus-xyvc-gkf',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Arte',
-          code: 'zar-bonu-xyk',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'LP II',
-          code: 'rmt-yrma-cgt',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Ed. Física',
-          code: 'ynh-acvm-qdm',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Filosofia',
-          code: '',
-          type: 'period'
+          type: 'period',
         },
       ],
       [
         {
           name: 'Quinta',
-          type: 'day'
+          type: 'day',
         },
         {
           name: 'História',
-          code: 'wzb-hnwo-ufh',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Biologia',
-          code: 'jsx-ockc-bhx',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'APS',
-          code: 'npg-cviw-zda',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Geografia',
-          code: 'pbk-fomz-vih',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Química',
-          code: 'wzd-mwxc-njx',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Matemática',
-          code: 'cqj-yhns-xbt',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Português',
-          code: 'crb-brvp-uoj',
-          type: 'period'
+          type: 'period',
         },
       ],
       [
         {
           name: 'Sexta',
-          type: 'day'
+          type: 'day',
         },
         {
           name: 'Inglês',
-          code: '',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'LP II',
-          code: 'myz-zptt-ikt',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Matemática',
-          code: 'dus-xyvc-gkf',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Arte',
-          code: 'zar-bonu-xyk',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Sociologia',
-          code: 'zzm-iirq-wgh',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Física',
-          code: 'pcv-igbb-wku',
-          type: 'period'
+          type: 'period',
         },
         {
           name: 'Português',
-          code: 'crb-brvp-uoj',
-          type: 'period'
+          type: 'period',
         },
       ],
     ],
   })
-
 }

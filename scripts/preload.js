@@ -1,4 +1,4 @@
 {
-	const mount = document.getElementById('school-timetable-mount')
-	mount.appendChild(school.timetable)
+  const mount = document.getElementById('school-timetable-mount')
+  mount.appendChild(school.timetable)
 }

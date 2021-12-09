@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&color=15C3D6&labelColor=000000" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&color=FFFFFF&labelColor=000000" />
   </a>
 <br/>
 </p>

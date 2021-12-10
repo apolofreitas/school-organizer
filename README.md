@@ -23,6 +23,10 @@
 
 ## 💻 About
 
+A online school schedule management built with vanilla javascript!
+
+## 🤯 Learnings
+
 In this project, a web system for school schedule management was created, due to the need that arose during the pandemic, it kept around 50 people daily during the month of operation.
 
 This school schedule organizer was a really simple project, I created because I was learning the fundamentals of web development and I wanted to test my knowledge.
